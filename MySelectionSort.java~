@@ -1,0 +1,18 @@
+// Unit 3, Module 3, Ex. 3.110
+
+
+import java.util.*;
+
+public class MySelectionSort {
+
+    public static void main (String[] argv)
+    {
+	int[] testData = makeRandomArray (10);
+
+	System.out.println ("Before: " + Arrays.toString(testData));
+
+
+	System.out.println ("After: " + Arrays.toString(testData));
+    }
+
+}
