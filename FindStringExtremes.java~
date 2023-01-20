@@ -1,0 +1,15 @@
+// Unit 3, Module 3, Ex. 3.4
+
+import java.util.*;
+
+public class FindStringExtremes {
+
+    static int minInd, maxInd;
+
+    public static void main (String[] argv)
+    {
+	String[] reservedWords = {"if", "else", "while", "do", "return", "tru", "false", "instanceof", "class"};
+    }
+
+
+}
