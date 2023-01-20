@@ -1,0 +1,10 @@
+// Unit 3, Module 3, Ex. 3.3
+
+public class StringCompare {
+
+    public static void main (String[] argv)
+    {
+	String s1 = "pen", s2 = "pin", s3 = "pan"
+    }
+
+}
