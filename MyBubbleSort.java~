@@ -1,0 +1,18 @@
+// Unit 3, Module 3, Ex. 3.14
+
+public class MyBubbleSort {
+
+    public static void main (String[] argv)
+    {
+	int[] testData = {51, 24, 63, 73, 42, 85, 71, 41, 87, 32};
+
+	System.out.println ("Before: " + Arrays.toString(testData));
+
+	bubbleSort (testData);
+
+	System.out.println ("After: " + Arrays.toString(testData));
+    }
+
+    
+
+}
