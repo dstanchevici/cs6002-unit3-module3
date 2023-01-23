@@ -1,0 +1,17 @@
+// Unit 3, Module 3, ex. 3.27
+
+class Person {
+
+    // Fields:
+    String firstName;
+    String lastName;
+    int birthYear;
+
+    // Constructor:
+    public Person (String firstName, String lastName, int birthYear)
+    {
+	this.firstName = firstName;
+	this.lastName = lastName;
+	this.birthYear = birthYear;
+    }
+}
