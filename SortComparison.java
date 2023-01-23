@@ -19,6 +19,7 @@ public class SortComparison {
     static void selectionSort (int[] A)
     {
 	int count = 0;
+	int swapCount = 0;
 
         // We don't need to find the n-th smallest, so stop at n-1.
 	for (int i=0; i<A.length-1; i++) {
@@ -40,16 +41,19 @@ public class SortComparison {
 	    int temp = A[i];
 	    A[i] = A[pos];
 	    A[pos] = temp;
+	    swapCount++;
 
 	}
 
 	System.out.println ("Selection: count=" + count);
+	System.out.println ("Selection: swapCount=" + swapCount);
     }
 
 
     static void bubbleSort (int[] A)
     {
 	int count = 0;
+	int swapCount = 0;
 
         // Each sweep, i=0...n-1, will put the i-th least element in place.
 	for (int i=0; i<A.length-1; i++) {
@@ -62,18 +66,21 @@ public class SortComparison {
 		    int temp = A[j];
 		    A[j] = A[j-1];
 		    A[j-1] = temp;
+		    swapCount ++;
 		}
 
 	    }
 	}
 
 	System.out.println ("Bubble: count=" + count);
+	System.out.println ("Bubble: swapCount=" + swapCount);
     }
 
 
     static void insertionSort (int[] A)
     {
 	int count = 0;
+	int swapCount = 0;
 
 	for (int i=0; i<A.length; i++) {
 
@@ -87,11 +94,13 @@ public class SortComparison {
                 A[j] = A[j-1];
                 A[j-1] = temp;
                 j --;
+		swapCount++;
             }
             
 	}
 
 	System.out.println ("Insertion: count=" + count);
+	System.out.println ("Insertion: swapCount=" + swapCount);
     }
     
 
